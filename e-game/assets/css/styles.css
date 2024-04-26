@@ -1,0 +1,734 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,
+p {
+    color: #6b747b;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+.hero{
+    background-image: url('../images/bgs/1stBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.WhoWeArehero{
+    background-image: url('../images/bgs/10thBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.characterhero{
+    background-image: url('../images/bgs/13thBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.TwoD-3dBg{
+    background-image: url('../images/bgs/2d-3dBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.animationBg{
+    background-image: url('../images/bgs/animationBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.bannerBg{
+    background-image: url('../images/bgs/bannerBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.emotesBg{
+    background-image: url('../images/bgs/emotesBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.gamingBg{
+    background-image: url('../images/bgs/logoBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.introBg{
+    background-image: url('../images/bgs/intro-outroBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.overlayBg{
+    background-image: url('../images/bgs/overlayBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.vTuberBg{
+    background-image: url('../images/bgs/VTuberBg.png');
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.whoWeAre{
+    background-image: url('../images/bgs/2ndBg.png');
+    background-size: 100% 100%;
+}
+.ourMission{
+    background-image: url('../images/bgs/11thBg.png');
+    background-size: 100% 100%;
+}
+.ourApproach{
+    background-image: url('../images/bgs/3rdBg.png');
+    background-size: 100% 100%;
+   
+}
+.ourVision{
+    background-image: url('../images/bgs/12Bg.png');
+    background-size: 100% 100%;
+   
+}
+.services{
+    background-image: url('../images/bgs/4thBg.png');
+    background-size: 100% 100%;
+   
+}
+.portfolio{
+    background-image: url('../images/bgs/5thBg.png');
+    background-size: 100% 100%;
+   
+}
+.packages{
+    background-image: url('../images/bgs/6thBg.png');
+    background-size: 100% 100%;
+   
+}
+.packagesBg{
+    background-image: url('../images/bgs/15thBg.png');
+    background-size: 100% 100%;
+   
+}
+.contactBg{
+    background-image: url('../images/bgs/16thBg.png');
+    background-size: 100% 100%;
+   
+}
+.formBg{
+    background-image: url('../images/bgs/17thBg.png');
+    background-size: 100% 100%;
+   
+}
+.getInTouchBg{
+    background-image: url('../images/bgs/18thBg.png');
+    background-size: 100% 100%;
+}
+.testimonial{
+    background-image: url('../images/bgs/7thBg.png');
+    background-size: 100% 100%;
+   
+}
+.contact{
+    background-image: url('../images/bgs/8thBg.png');
+    background-size: 100% 100%;
+   
+}
+.footer{
+    background-image: url('../images/bgs/9thBg.png');
+    background-size: 100% 100%;
+}
+
+.card{
+    background-image: url('../images/card.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.servicesCard{
+    background-image: url('../images/servicesCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.packageCard{
+    background-image: url('../images/packageCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pricingCard{
+    background-image: url('../images/pricingCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.pricingsCard{
+    background-image: url('../images/packagesCard.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.portfolioCard{
+    background-image: url('../images/bgs/4thBg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.buttons {
+    background-image: url('../images/buttons.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+
+.tab {
+    cursor: pointer;
+    background-color: rgba(47, 67, 125, 0.824);
+    transition: all ease-in-out 0.5s;
+}
+.panels {
+    border-radius: 3px;
+    overflow: hidden;
+}
+.brandConcept:hover {
+    box-shadow: inset 278px 0 0 0 #f0d7fa !important;
+    color: #000000 !important;
+    font-weight: bolder !important;
+}
+.panel {
+    display: none;
+    animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.panel-title {
+    font-size: 1.5em;
+    font-weight: bold
+}
+.radio {
+    display: none;
+}
+#one:checked~.panels #one-panel,
+#two:checked~.panels #two-panel,
+#three:checked~.panels #three-panel,
+#four:checked~.panels #four-panel,
+#five:checked~.panels #five-panel,
+#six:checked~.panels #six-panel,
+#seven:checked~.panels #seven-panel,
+#eight:checked~.panels #eight-panel,
+#nine:checked~.panels #nine-panel {
+    display: block
+}
+#one:checked~.tabs #one-tab,
+#two:checked~.tabs #two-tab,
+#three:checked~.tabs #three-tab,
+#four:checked~.tabs #four-tab,
+#five:checked~.tabs #five-tab,
+#six:checked~.tabs #six-tab,
+#seven:checked~.tabs #seven-tab,
+#eight:checked~.tabs #eight-tab,
+#nine:checked~.tabs #nine-tab {
+    box-shadow: inset 278px 0 0 0 #f0d7fa !important;
+    color: #000000 !important;
+    font-weight: bolder !important;
+}
+
+/* Fade-move Animation For Details Lightbox - Magnific Popup */
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    -webkit-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+    -ms-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+    transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    -webkit-transform: translateY(0) perspective(37.5rem) rotateX(0);
+    -ms-transform: translateY(0) perspective(37.5rem) rotateX(0);
+    transform: translateY(0) perspective(37.5rem) rotateX(0);
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+    opacity: 0;
+    -webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+    -ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+    transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+}
+
+/* dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+.navbar {
+    position: relative;
+    background-color: #181a2a;
+    padding: 0.5rem 1rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.75rem;
+    transition: all 0.2s ease;
+    padding: 20px 0 20px 0;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-toggler-icon::before {
+    font-family: 'FontAwesome';
+    content: "\f0c9";
+    color: white;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+}
+
+.offcanvas-collapse {
+    position: fixed;
+    top: 3.25rem;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #352261;
+    transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.offcanvas-collapse.open {
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.nav-link {
+    display: block;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #8e86a4;
+    text-decoration: none;
+    line-height: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    content: "+";
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.dropdown-toggle:empty::after {
+    margin-left: 0;
+}
+
+.dropdown.show > a,
+.nav-link:hover,
+.nav-link.active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    width: 271px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(to bottom, #352261, #352261);
+    background-clip: padding-box;
+    border-radius: 15px;
+    animation: fadeDropdown 0.2s;
+}
+
+@keyframes fadeDropdown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dropdown-menu.show {
+    display: block;
+    top: 90%;
+    left: auto;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    clear: both;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-decoration: none;
+   
+}
+
+.dropdown-menu li:hover,
+.dropdown-menu a:hover,
+.dropdown-item:focus {
+    text-decoration: none;
+    color: #4bcefa;
+    transition: all 0.3 ease;
+}
+
+/* end of dropdown menu */
+
+/****************************/
+/*     Details Lightbox     */
+/****************************/
+.lightbox-basic {
+    position: relative;
+    max-width: 1150px;
+    margin: 2.5rem auto;
+    padding: 3rem 1rem;
+    text-align: left;
+}
+
+
+/************************/
+/*     Testimonials     */
+/************************/
+/* Add this style to your existing stylesheet */
+
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px; 
+    background-color: #c276dd;
+    margin: 0 5px;
+    border-radius: 0;
+}
+
+.card-slider .swiper-slide.active {
+    background: linear-gradient(to bottom, #3f256c, transparent);
+    margin-top: -2rem;
+}
+
+
+.slider-1 .slider-container {
+    position: relative;
+}
+
+.slider-1 .swiper-container {
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-1 .swiper-button-prev:focus,
+.slider-1 .swiper-button-next:focus {
+    /* even if you can't see it chrome you can see it on mobile device */
+    outline: none;
+}
+
+
+.slider-1 .card-image {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-top: -3rem;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+/**********************/
+/*     Conclusion     */
+/**********************/
+.basic-5 {
+    padding-top: 4.5rem;
+    padding-bottom: 7.5rem;
+    background: url("../images/conclusion-background.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+a.back-to-top {
+    position: fixed;
+    z-index: 999;
+    right: 12px;
+    bottom: 12px;
+    display: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 30px;
+    background: #343e48 url("../images/up-arrow.png") no-repeat center 47%;
+    background-size: 18px 18px;
+    text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+    background-color: #000000;
+}
+
+
+
+/* Min-width 768px */
+@media (min-width: 768px) {
+    /* Extra Pages */
+    .ex-basic-1 .text-box {
+        padding: 1.75rem 2rem 0.875rem 2rem;
+    }
+}
+/* Min-width 1024px */
+@media (min-width: 1024px) {
+    .btn-solid-lg {
+        margin-right: 0.5rem;
+        margin-left: 0;
+    }
+    .navbar {
+        background-color: transparent;
+        flex-wrap: nowrap;
+        justify-content: start;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1.75rem;
+    }
+
+    .navbar-collapse {
+        flex-basis: auto;
+    }
+
+    .navbar.top-nav-collapse {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #2a2e30;
+    }
+
+    .offcanvas-collapse {
+        position: static;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: transparent;
+        overflow-y: visible;
+        visibility: visible;
+    }
+
+    .offcanvas-collapse.open {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .nav-link {
+        padding-right: 0.625rem;
+        padding-left: 0.625rem;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        margin-top: 0.25rem;
+        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.05);
+    }
+
+    .dropdown-divider {
+        width: 90%;
+    }
+
+    /* end of navigation */
+
+    /* Details Lightbox */
+    .lightbox-basic {
+        padding: 3rem 3rem;
+    }
+    /* end of details lightbox */
+
+
+    /* Testimonials */
+    .slider-1 .swiper-container {
+        width: 100%;
+    }
+
+    .slider-1 .swiper-button-prev {
+        left: -16px;
+        width: 22px;
+        background-size: 22px 34px;
+    }
+
+    .slider-1 .swiper-button-next {
+        right: -16px;
+        width: 22px;
+        background-size: 22px 34px;
+    }
+    /* end of testimonials */
+
+}
+/* end of min-width 1024px */
+
+/* Min-width 1280px */
+@media (min-width: 1280px) {
+    /* General Styles */
+    .h1-large {
+        font-size: 3.125rem;
+        line-height: 3.75rem;
+    }
+
+    .container {
+        max-width: 72rem;
+    }
+    /* end of general styles */
+}
+@media (max-width: 768px) {
+    .hero{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .WhoWeArehero{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .characterhero{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .TwoD-3dBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .animationBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .bannerBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .emotesBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .gamingBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .introBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .overlayBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+    .vTuberBg{
+        background-image: url('');
+        background-size: cover;
+        height: 40vh;
+    }
+  
+    .whoWeAre{
+        background-image: url('');
+        background-size: cover;
+    }
+    .ourApproach{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .ourMission{
+        background-image: url('');
+        background-size: cover;
+    }
+    .ourVision{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .getInTouchBg{
+        background-image: url('');
+        background-size: cover;
+    }
+    .services{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .portfolio{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .portfolioCard{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .packagesBg{
+        background-image: url('');
+        background-size: cover;
+    }
+    .contactBg{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .packages{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .testimonial{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .contact{
+        background-image: url('');
+        background-size: cover;
+       
+    }
+    .footer{
+        background-image: url('');
+        background-size: cover;
+    }
+}
+
